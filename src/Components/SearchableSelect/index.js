@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+//styled components
+import Wrapper from './Components/Wrapper';
+
 /*
 	TODO: don't only return the selected item, but return the full state of the selected items !!!!!!
 */
@@ -36,10 +39,6 @@ const Tag = styled.button`
     	content: "x";
     	padding: 0px 5px;
     }
-`;
-
-const Wrapper = styled.div`
-	width: 250px
 `;
 
 const Clear = styled.button`

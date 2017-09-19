@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+import logo from '../../../public/gronda_logo_side.png';
 
 const styles = {
 	wrapper: {
@@ -14,12 +16,19 @@ const styles = {
 	}
 }
 
+const ImageWrapper = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`;
+
 class Header extends React.Component {
 	render(){
 		return (
 			<div style={styles.wrapper}>
-				Gronda
-				<img src="../../../public/gronda_logo_side.png" />
+				<ImageWrapper>
+					<img src={logo} alt="Gronda" />
+				</ImageWrapper>
 			</div>
 			)
 	}

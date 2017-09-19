@@ -33,7 +33,7 @@ const list = [
 	},
 	{
 		label: "moreee",
-		value: 34
+		value: 31
 	},
 	{
 		label: "andmoreee",
@@ -73,7 +73,6 @@ class App extends React.Component {
 	}
  
 	render(){
-
 		return (
 			<div style={styles.main}>
 				<Header />
